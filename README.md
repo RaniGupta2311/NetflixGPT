@@ -1,5 +1,8 @@
 - npx create-react-app netflixgpt
 - Configured tailwind css
+- Header
+- Login Form
+- Sign Up Form
 #Features
 -Login/Sign up
     -sign in/sign up form
