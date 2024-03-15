@@ -1,8 +1,13 @@
 - npx create-react-app netflixgpt
 - Configured tailwind css
 - Header
+- Routing
 - Login Form
 - Sign Up Form
+- Form Validation
+- useRef Hook (to reference the fields of form)
+
+
 #Features
 -Login/Sign up
     -sign in/sign up form
