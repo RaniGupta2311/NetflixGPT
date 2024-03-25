@@ -24,6 +24,7 @@
 - Fetch data for trailer video
 - update store with trailer video
 - embeded the youtube video and make it autoplay and muted
+- build secondary container
 
 
 
