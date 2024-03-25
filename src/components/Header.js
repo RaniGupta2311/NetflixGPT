@@ -42,7 +42,7 @@ const Header=()=>{
         return ()=>unsubscribe();
       },[])
     return (
-        <div className="absolute bg-gradient-to-b from-black px-8 py-2 z-30 w-screen flex justify-between items-center">
+        <div className="absolute bg-gradient-to-b from-black px-8 py-2 w-screen flex justify-between items-center z-10">
             <img src={logo}
                 alt="logo"
                 className="w-44"
