@@ -1,4 +1,4 @@
-import { NETFLIX_BG_IMG_URL } from "../utils/constants";
+import { NETFLIX_BG_IMG_URL, USER_AVATAR } from "../utils/constants";
 import { checkValidData } from "../utils/validate";
 import Header from "./Header";
 import { useRef, useState } from "react";
@@ -48,14 +48,14 @@ const Login = () => {
           // updating display name
           updateProfile(user, {
             displayName: name.current.value,
-            photoURL: "https://avatars.githubusercontent.com/u/62137291?v=4",
+            photoURL: USER_AVATAR,
           })
             .then(() => {
               // Profile updated!
               // ...
               const {uid,email,displayName,photoURL} = auth.currentUser;
               dispatch(addUser({uid:uid,email:email,displayName:displayName,photoURL:photoURL}))
-              navigate("/browse");
+              // navigate("/browse");
             })
             .catch((error) => {
               // An error occurred
@@ -83,7 +83,7 @@ const Login = () => {
           // Signed in
           const user = userCredential.user;
           console.log(user);
-          navigate("/browse");
+          // navigate("/browse");
           // ...
         })
         .catch((error) => {
