@@ -31,7 +31,7 @@
 - Made the browser page amazing with Tailwind CSS
 - custom hooks for popular movies
 - custom hooks for Top Rated
-
+- GPT search feature
 
 
 
