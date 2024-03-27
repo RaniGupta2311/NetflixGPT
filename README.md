@@ -32,7 +32,9 @@
 - custom hooks for popular movies
 - custom hooks for Top Rated
 - GPT search feature
-
+- GPT search page
+- GPT search bar
+- multilingual in search gpt page
 
 
 #Features
